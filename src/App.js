@@ -9,9 +9,9 @@ export default class App extends React.Component {
       <Fragment>
       <Link to="/profile">
         <button className="btn btn-lg btn-success mx-5 my-5">Git Users</button>
-        <p>Fetch some github profile</p>
       </Link>
       <Routes />
+      <p>Fetch some github profile</p>
       </Fragment>
     )
   }
